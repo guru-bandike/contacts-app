@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+<h1 align="center" style="font-weight: bolder; color: #059d06">Contacts App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://contacts-app-guru-bandikes-projects.vercel.app/" target="_blank">View Live App</a>
+</p>
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+A React-based **Contacts Management Application** that allows users to manage contacts dynamically. Features include adding, editing, deleting, and viewing contact details.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Contacts**: Create new contacts with essential details.
+- **Edit Contacts**: Modify existing contact information.
+- **Delete Contacts**: Remove unwanted contacts.
+- **View Details**: View detailed information of each contact.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **404 Page**: Displays a custom page for invalid routes.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+This project is built using:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js**: Framework for building interactive UIs.
+- **React Router**: For managing routing in the app.
+- **CSS3**: For custom styling.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Development Tools
 
-### `npm run eject`
+- **Node.js & npm**: Dependency and package management.
+- **VS Code**: Source code editor.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+contacts-app/
+├── node_modules/
+├── public/
+│   ├── delete.svg
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── avatar/
+│   │   │   ├── navigationBtn/
+│   │   │   └── loader/
+│   │   ├── contactForm/
+│   │   ├── contactList/
+│   │   ├── pageNotFound/
+│   │   └── notFound/
+│   ├── context/
+│   ├── pages/
+│   │   ├── addContact/
+│   │   ├── contactDetails/
+│   │   ├── editContact/
+│   │   ├── home/
+│   │   └── notFound/
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Installation and Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these steps to set up the project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+Ensure you have the following installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Node.js**: Download it from [Node.js official website](https://nodejs.org/).
+- **npm**: Comes with Node.js.
 
-### Analyzing the Bundle Size
+### Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/guru-bandike/contacts-app.git
+cd contacts-app
+```
 
-### Making a Progressive Web App
+### Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+### Start the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+The app will run on [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
+
+---
+
+<h3 align="center" style="font-weight: bolder; color: #059d06">😊Happy Coding!</h3>
