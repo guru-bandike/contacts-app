@@ -1,0 +1,23 @@
+.avatar {
+  position: relative;
+  background-color: #c79a95;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.avatar img.fade-in {
+  opacity: 1;
+}

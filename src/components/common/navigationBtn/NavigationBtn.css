@@ -1,0 +1,16 @@
+.navigation-btn {
+  text-wrap: noWrap;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #808274;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation-btn:hover {
+  background-color: #425134;
+}
