@@ -57,7 +57,7 @@ export const ContactProvider = ({ children }) => {
       setContacts(
         contacts.map((contact) => (contact.id === id ? { ...contact, ...updatedContact } : contact))
       );
-      toast.success('Contact UPDATE Successfully👍');
+      toast.success('Contact UPDATED Successfully👍');
     } catch (error) {
       toast.error('Faild To UPDATE Contact, Please try again!');
       console.error('Error updating contact:', error);
@@ -72,7 +72,7 @@ export const ContactProvider = ({ children }) => {
       setIsLoading(true);
       await axios.delete(`${API_BASE_URL}/${id}`);
       setContacts(contacts.filter((contact) => contact.id !== parseInt(id)));
-      toast.success('Contact DELETE Successfully👍');
+      toast.success('Contact DELETED Successfully👍');
     } catch (error) {
       toast.error('Faild To DELETE Contact, Please try again!');
       console.error('Error deleting contact:', error);
