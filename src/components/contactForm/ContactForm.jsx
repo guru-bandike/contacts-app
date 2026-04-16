@@ -47,7 +47,7 @@ const ContactForm = ({ initialData, onClose }) => {
 
         {/* Input field for the contact's name */}
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -61,7 +61,7 @@ const ContactForm = ({ initialData, onClose }) => {
 
         {/* Input field for the contact's email */}
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -75,7 +75,7 @@ const ContactForm = ({ initialData, onClose }) => {
 
         {/* Input field for the contact's phone number */}
         <div className="form-group">
-          <label htmlFor="phone">Phone</label>
+          <label htmlFor="phone">Phone:</label>
           <input
             type="tel"
             id="phone"
